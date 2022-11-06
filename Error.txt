@@ -1,0 +1,401 @@
+Version Info:
+ - Java version (1.8.0_144)
+ - Slay the Spire (10-04-2022)
+ - ModTheSpire (3.30.0)
+Mod list:
+ - basemod (5.47.0)
+ - stslib (2.5.0)
+ - Saigyouji_Yuyuko_mod (1.2.0)
+
+Begin patching...
+Patching enums...Done.
+Finding core patches...
+Finding patches...
+Patching Overrides...
+Injecting patches...Done.
+Compiling patched classes...Done.
+Busting enums...Done.
+
+Setting isModded = true...Done.
+
+Adding ModTheSpire to version...Done.
+
+Initializing mods...
+ - BaseMod
+   - basemod.BaseMod
+libgdx version 1.9.5
+03:27:00.475 INFO basemod.BaseMod> initializeGson
+03:27:00.488 INFO basemod.BaseMod> initializeTypeMaps
+03:27:00.489 INFO basemod.BaseMod> Registered MonsterStrings
+03:27:00.490 INFO basemod.BaseMod> Registered PowerStrings
+03:27:00.491 INFO basemod.BaseMod> Registered CardStrings
+03:27:00.491 INFO basemod.BaseMod> Registered RelicStrings
+03:27:00.491 INFO basemod.BaseMod> Registered EventStrings
+03:27:00.492 INFO basemod.BaseMod> Registered PotionStrings
+03:27:00.492 INFO basemod.BaseMod> Registered CreditStrings
+03:27:00.492 INFO basemod.BaseMod> Registered TutorialStrings
+03:27:00.493 INFO basemod.BaseMod> Registered KeywordStrings
+03:27:00.493 INFO basemod.BaseMod> Registered ScoreBonusStrings
+03:27:00.494 INFO basemod.BaseMod> Registered CharacterStrings
+03:27:00.494 INFO basemod.BaseMod> Registered UIStrings
+03:27:00.494 INFO basemod.BaseMod> Registered OrbStrings
+03:27:00.495 INFO basemod.BaseMod> Registered StanceStrings
+03:27:00.495 INFO basemod.BaseMod> Registered RunModStrings
+03:27:00.495 INFO basemod.BaseMod> Registered BlightStrings
+03:27:00.496 INFO basemod.BaseMod> Registered AchievementStrings
+03:27:00.496 INFO basemod.BaseMod> initializePowerMap
+03:27:00.955 INFO basemod.BaseMod> initializeUnderscorePowerIDs
+   - 500ms
+ - StSLib
+   - com.evacipated.cardcrawl.mod.stslib.StSLib
+   - 0ms
+ - Yuyuko_mod (西行寺幽幽子)
+   - Saigyouji_Yuyuko_mod.Saigyouji_Yuyuko_mod
+03:27:00.984 INFO basemod.DevConsole> =========================??????Flandre_mod????=========================
+03:27:00.984 INFO basemod.DevConsole> ============================ ?????????????? ============================
+03:27:00.985 INFO basemod.DevConsole> ============================ ?????????????????? ============================
+03:27:00.985 INFO basemod.DevConsole> ========================??????????????????????========================
+03:27:00.985 INFO basemod.DevConsole> ========================??????????????????????========================
+03:27:00.985 INFO basemod.DevConsole> ===========================????Mod??????????===========================
+   - 15ms
+Done.
+
+Starting game...
+03:27:00.986 INFO desktop.DesktopLauncher> time: 1667705220986
+03:27:00.986 INFO desktop.DesktopLauncher> version: 2022-10-04
+03:27:00.986 INFO desktop.DesktopLauncher> libgdx:  1.9.5
+03:27:00.987 INFO desktop.DesktopLauncher> default_locale: ja_JP
+03:27:00.987 INFO desktop.DesktopLauncher> default_charset: windows-31j
+03:27:00.987 INFO desktop.DesktopLauncher> default_encoding: MS932
+03:27:00.987 INFO desktop.DesktopLauncher> java_version: 1.8.0_144
+03:27:00.987 INFO desktop.DesktopLauncher> os_arch: amd64
+03:27:00.987 INFO desktop.DesktopLauncher> os_name: Windows 10
+03:27:00.987 INFO desktop.DesktopLauncher> os_version: 10.0
+03:27:00.988 INFO core.SystemStats> MEMORY STATS:
+Free Memory: 149Mb
+Max Memory: 3,623Mb
+Allocated Memory: 1,281Mb
+Unallocated Memory: 2,342Mb
+Total Free Memory: 2,491Mb
+Used Memory: 1,131Mb
+
+03:27:00.989 INFO core.SystemStats> DISK STATS:
+Total Space: 953,739Mb
+Usable Space: 249,145Mb
+Free Space: 249,145Mb
+
+03:27:00.991 INFO core.DisplayConfig> Reading info.displayconfig
+03:27:00.994 INFO core.DisplayConfig> DisplayConfig successfully read.
+03:27:00.994 INFO desktop.DesktopLauncher> [FULLSCREEN_MODE]
+03:27:00.994 INFO desktop.DesktopLauncher> Running the game in: 3840 x 2160
+03:27:00.995 INFO desktop.DesktopLauncher> Settings successfully loaded
+03:27:00.996 INFO desktop.DesktopLauncher> Launching application...
+03:27:01.595 INFO ststwitch.TwitchConfig> The 'twitchconfig.txt' already exists, not overwriting it.
+03:27:01.598 INFO core.CardCrawlGame> DistributorPlatform=steam
+03:27:01.598 INFO core.CardCrawlGame> isModded=true
+03:27:01.598 INFO core.CardCrawlGame> isBeta=false
+03:27:01.691 INFO steam.SteamIntegration> [SUCCESS] Steam API initialized successfully.
+03:27:01.695 INFO steam.SteamIntegration> BUILD ID: 9656851
+03:27:01.696 INFO steam.SteamIntegration> CURRENT LANG: english
+03:27:01.696 INFO steam.SteamIntegration> ACCOUNT ID: 96096575
+03:27:01.697 INFO steam.SteamIntegration> requestGlobalStats
+03:27:01.697 INFO steam.SteamTicker> Steam Ticker initialized.
+03:27:01.698 INFO core.CardCrawlGame> No migration
+03:27:01.703 INFO core.Settings> Initializing display settings...
+03:27:01.704 INFO core.DisplayConfig> Reading info.displayconfig
+03:27:01.704 INFO core.DisplayConfig> DisplayConfig successfully read.
+03:27:01.704 INFO core.Settings> Initializing sound settings...
+03:27:01.705 INFO core.Settings> Initializing game settings...
+03:27:01.734 INFO localization.LocalizedStrings> Loc Strings load time: 22ms
+03:27:01.734 INFO basemod.BaseMod> begin editing localization strings
+03:27:01.738 INFO basemod.BaseMod> loadJsonStrings: com.megacrit.cardcrawl.localization.RunModStrings
+03:27:01.741 INFO basemod.BaseMod> loadJsonStrings: com.megacrit.cardcrawl.localization.PowerStrings
+03:27:01.742 INFO basemod.BaseMod> loadJsonStrings: com.megacrit.cardcrawl.localization.RelicStrings
+03:27:01.743 INFO basemod.BaseMod> loadJsonStrings: com.megacrit.cardcrawl.localization.UIStrings
+03:27:01.745 INFO basemod.BaseMod> loadJsonStrings: com.megacrit.cardcrawl.localization.CardStrings
+03:27:01.746 INFO basemod.BaseMod> loadJsonStrings: com.megacrit.cardcrawl.localization.PowerStrings
+03:27:01.746 INFO basemod.BaseMod> loadJsonStrings: com.megacrit.cardcrawl.localization.RelicStrings
+03:27:01.747 INFO basemod.BaseMod> loadJsonStrings: com.megacrit.cardcrawl.localization.EventStrings
+03:27:01.748 INFO basemod.BaseMod> loadJsonStrings: com.megacrit.cardcrawl.localization.MonsterStrings
+03:27:01.748 INFO basemod.BaseMod> loadJsonStrings: com.megacrit.cardcrawl.localization.UIStrings
+03:27:01.763 INFO audio.MusicMaster> Music Volume: 0.19565217
+03:27:01.765 INFO audio.SoundMaster> Sound Effect Volume: 0.19565217
+03:27:01.765 INFO audio.SoundMaster> Loaded 368 Sound Effects
+03:27:01.765 INFO audio.SoundMaster> SFX load time: 1ms
+03:27:01.766 INFO basemod.BaseMod> begin adding custom sounds
+03:27:01.767 INFO basemod.BaseMod> Added 3 sounds
+03:27:01.971 INFO steam.SSCallback> 1Bloop: 646570
+03:27:02.849 INFO cards.AbstractCard> Card Image load time: 1076ms
+03:27:02.849 INFO basemod.BaseMod> editting keywords
+Setting up custom keywords
+Loading keyword : クリティカル
+Loading keyword : 禁忌
+Loading keyword : 破目
+Loading keyword : 渇血
+Loading keyword : 狂気
+Loading keyword : 全カード
+Keywords setting finished.
+03:27:03.505 INFO helpers.ImageMaster> Texture load time: 648ms
+03:27:03.983 INFO helpers.FontHelper> Font load time: 425ms
+03:27:03.999 INFO unlock.UnlockTracker> RED UNLOCKS:   9/9
+03:27:04.000 INFO unlock.UnlockTracker> GREEN UNLOCKS: 9/9
+03:27:04.000 INFO unlock.UnlockTracker> BLUE UNLOCKS: 9/9
+03:27:04.000 INFO unlock.UnlockTracker> PURPLE UNLOCKS: 9/9
+03:27:04.000 INFO unlock.UnlockTracker> RELIC UNLOCKS: 24/24
+03:27:04.042 INFO unlock.UnlockTracker> CARDS SEEN:    5133/0
+03:27:04.063 INFO unlock.UnlockTracker> RELICS SEEN:   624/0
+03:27:04.064 INFO basemod.BaseMod> publish post refresh - refreshing unlocks
+03:27:04.064 INFO basemod.BaseMod> begin editing cards
+03:27:04.064 INFO basemod.DevConsole> =========================????????????????????=========================
+03:27:04.065 INFO localization.LocalizedStrings> [ERROR] CardString: Attack_Yuyuko_Pink not found
+03:27:04.134 INFO localization.LocalizedStrings> [ERROR] CardString: Attack_Yuyuko_Pink not found
+03:27:04.143 INFO panels.TopPanel> Twitch Integration enabled due to presence of 'twitch.properties` file.
+03:27:04.143 INFO panels.TopPanel> Not starting twitch integration because enabled=false
+03:27:04.299 INFO core.DisplayConfig> Reading info.displayconfig
+03:27:04.300 INFO core.DisplayConfig> DisplayConfig successfully read.
+03:27:04.439 INFO localization.LocalizedStrings> [ERROR] CardString: Defend_Yuyuko_Pink not found
+03:27:04.440 INFO localization.LocalizedStrings> [ERROR] CardString: Defend_Yuyuko_Pink not found
+03:27:04.442 INFO localization.LocalizedStrings> [ERROR] CardString: Perplexed_Pink not found
+03:27:04.442 INFO localization.LocalizedStrings> [ERROR] CardString: Perplexed_Pink not found
+03:27:04.444 INFO localization.LocalizedStrings> [ERROR] CardString: Temptations_Pink not found
+03:27:04.444 INFO localization.LocalizedStrings> [ERROR] CardString: Temptations_Pink not found
+03:27:04.445 INFO localization.LocalizedStrings> [ERROR] CardString: WanderingSoul_Pink not found
+03:27:04.445 INFO localization.LocalizedStrings> [ERROR] CardString: WanderingSoul_Pink not found
+03:27:04.448 INFO localization.LocalizedStrings> [ERROR] CardString: GhastlyDream_Pink not found
+03:27:04.448 INFO localization.LocalizedStrings> [ERROR] CardString: GhastlyDream_Pink not found
+03:27:04.449 INFO localization.LocalizedStrings> [ERROR] CardString: EndlessRoad_Pink not found
+03:27:04.450 INFO localization.LocalizedStrings> [ERROR] CardString: EndlessRoad_Pink not found
+03:27:04.451 INFO localization.LocalizedStrings> [ERROR] CardString: DreamInterrupted_Pink not found
+03:27:04.452 INFO localization.LocalizedStrings> [ERROR] CardString: DreamInterrupted_Pink not found
+03:27:04.453 INFO localization.LocalizedStrings> [ERROR] CardString: FutureLife_Pink not found
+03:27:04.453 INFO localization.LocalizedStrings> [ERROR] CardString: FutureLife_Pink not found
+03:27:04.460 INFO localization.LocalizedStrings> [ERROR] CardString: UnderworldRoad_Pink not found
+03:27:04.460 INFO localization.LocalizedStrings> [ERROR] CardString: UnderworldRoad_Pink not found
+03:27:04.462 INFO localization.LocalizedStrings> [ERROR] CardString: Apoptosis_Special_Pink not found
+03:27:04.462 INFO localization.LocalizedStrings> [ERROR] CardString: Apoptosis_Special_Pink not found
+03:27:04.464 INFO localization.LocalizedStrings> [ERROR] CardString: UnderworldReturn_Pink not found
+03:27:04.464 INFO localization.LocalizedStrings> [ERROR] CardString: UnderworldReturn_Pink not found
+03:27:04.466 INFO localization.LocalizedStrings> [ERROR] CardString: DeathButterfly_Pink not found
+03:27:04.466 INFO localization.LocalizedStrings> [ERROR] CardString: DeathButterfly_Pink not found
+03:27:04.468 INFO localization.LocalizedStrings> [ERROR] CardString: DeathSoulSpear_Pink not found
+03:27:04.468 INFO localization.LocalizedStrings> [ERROR] CardString: DeathSoulSpear_Pink not found
+03:27:04.469 INFO localization.LocalizedStrings> [ERROR] CardString: SakurasDance_Pink not found
+03:27:04.470 INFO localization.LocalizedStrings> [ERROR] CardString: SakurasDance_Pink not found
+03:27:04.544 INFO localization.LocalizedStrings> [ERROR] CardString: SoulLash_Pink not found
+03:27:04.545 INFO localization.LocalizedStrings> [ERROR] CardString: SoulLash_Pink not found
+03:27:04.546 INFO localization.LocalizedStrings> [ERROR] CardString: TheLastLife_Pink not found
+03:27:04.547 INFO localization.LocalizedStrings> [ERROR] CardString: TheLastLife_Pink not found
+03:27:04.549 INFO localization.LocalizedStrings> [ERROR] CardString: SenseOfElegance_Pink not found
+03:27:04.549 INFO localization.LocalizedStrings> [ERROR] CardString: SenseOfElegance_Pink not found
+03:27:04.551 INFO localization.LocalizedStrings> [ERROR] CardString: TheNextLifeWillComes_Pink not found
+03:27:04.551 INFO localization.LocalizedStrings> [ERROR] CardString: TheNextLifeWillComes_Pink not found
+03:27:04.553 INFO localization.LocalizedStrings> [ERROR] CardString: FutureLife_Pink not found
+03:27:04.554 INFO localization.LocalizedStrings> [ERROR] CardString: EndlessSuffering_Pink not found
+03:27:04.554 INFO localization.LocalizedStrings> [ERROR] CardString: EndlessSuffering_Pink not found
+03:27:04.555 INFO localization.LocalizedStrings> [ERROR] CardString: FutureLife_Pink not found
+03:27:04.556 INFO localization.LocalizedStrings> [ERROR] CardString: OnlyMySakura_Pink not found
+03:27:04.556 INFO localization.LocalizedStrings> [ERROR] CardString: OnlyMySakura_Pink not found
+03:27:04.558 INFO localization.LocalizedStrings> [ERROR] CardString: FutureLife_Pink not found
+03:27:04.558 INFO localization.LocalizedStrings> [ERROR] CardString: ButterflyDance_Pink not found
+03:27:04.558 INFO localization.LocalizedStrings> [ERROR] CardString: ButterflyDance_Pink not found
+03:27:04.561 INFO localization.LocalizedStrings> [ERROR] CardString: BeComeTheButterfly_Pink not found
+03:27:04.561 INFO localization.LocalizedStrings> [ERROR] CardString: BeComeTheButterfly_Pink not found
+03:27:04.563 INFO localization.LocalizedStrings> [ERROR] CardString: ThereIsNoDream_Pink not found
+03:27:04.563 INFO localization.LocalizedStrings> [ERROR] CardString: ThereIsNoDream_Pink not found
+03:27:04.565 INFO localization.LocalizedStrings> [ERROR] CardString: EndlessDeath_Pink not found
+03:27:04.565 INFO localization.LocalizedStrings> [ERROR] CardString: EndlessDeath_Pink not found
+03:27:04.568 INFO localization.LocalizedStrings> [ERROR] CardString: FlowerButterflyPretty_Pink not found
+03:27:04.569 INFO localization.LocalizedStrings> [ERROR] CardString: FlowerButterflyPretty_Pink not found
+03:27:04.572 INFO localization.LocalizedStrings> [ERROR] CardString: UnderworldLights_Pink not found
+03:27:04.572 INFO localization.LocalizedStrings> [ERROR] CardString: UnderworldLights_Pink not found
+03:27:04.574 INFO localization.LocalizedStrings> [ERROR] CardString: UnderworldEntice_Pink not found
+03:27:04.574 INFO localization.LocalizedStrings> [ERROR] CardString: UnderworldEntice_Pink not found
+03:27:04.576 INFO localization.LocalizedStrings> [ERROR] CardString: SnowAndFlowers_Pink not found
+03:27:04.576 INFO localization.LocalizedStrings> [ERROR] CardString: SnowAndFlowers_Pink not found
+03:27:04.578 INFO localization.LocalizedStrings> [ERROR] CardString: GhostSpot_Pink not found
+03:27:04.579 INFO localization.LocalizedStrings> [ERROR] CardString: GhostSpot_Pink not found
+03:27:04.580 INFO localization.LocalizedStrings> [ERROR] CardString: TheDeepCalls_Pink not found
+03:27:04.581 INFO localization.LocalizedStrings> [ERROR] CardString: TheDeepCalls_Pink not found
+03:27:04.582 INFO localization.LocalizedStrings> [ERROR] CardString: TheHell_Pink not found
+03:27:04.583 INFO localization.LocalizedStrings> [ERROR] CardString: TheHell_Pink not found
+03:27:04.584 INFO localization.LocalizedStrings> [ERROR] CardString: DeadButterfliesFloatOn_Pink not found
+03:27:04.585 INFO localization.LocalizedStrings> [ERROR] CardString: DeadButterfliesFloatOn_Pink not found
+03:27:04.587 INFO localization.LocalizedStrings> [ERROR] CardString: TheDeepErosion_Pink not found
+03:27:04.587 INFO localization.LocalizedStrings> [ERROR] CardString: TheDeepErosion_Pink not found
+03:27:04.588 INFO localization.LocalizedStrings> [ERROR] CardString: EnlightenmentForTheFuture_Pink not found
+03:27:04.589 INFO localization.LocalizedStrings> [ERROR] CardString: EnlightenmentForTheFuture_Pink not found
+03:27:04.591 INFO localization.LocalizedStrings> [ERROR] CardString: LifeIsWandering_Pink not found
+03:27:04.591 INFO localization.LocalizedStrings> [ERROR] CardString: LifeIsWandering_Pink not found
+03:27:04.593 INFO localization.LocalizedStrings> [ERROR] CardString: DeathIsTheEndOfLife_Pink not found
+03:27:04.594 INFO localization.LocalizedStrings> [ERROR] CardString: DeathIsTheEndOfLife_Pink not found
+03:27:04.595 INFO localization.LocalizedStrings> [ERROR] CardString: DeathWillLastForever_Pink not found
+03:27:04.596 INFO localization.LocalizedStrings> [ERROR] CardString: DeathWillLastForever_Pink not found
+03:27:04.598 INFO localization.LocalizedStrings> [ERROR] CardString: BuriedBySakura_Pink not found
+03:27:04.598 INFO localization.LocalizedStrings> [ERROR] CardString: BuriedBySakura_Pink not found
+03:27:04.600 INFO localization.LocalizedStrings> [ERROR] CardString: NightSakura_Pink not found
+03:27:04.601 INFO localization.LocalizedStrings> [ERROR] CardString: NightSakura_Pink not found
+03:27:04.603 INFO localization.LocalizedStrings> [ERROR] CardString: DeathByDiffusion_Pink not found
+03:27:04.603 INFO localization.LocalizedStrings> [ERROR] CardString: DeathByDiffusion_Pink not found
+03:27:04.605 INFO localization.LocalizedStrings> [ERROR] CardString: SakuraFantasy_Pink not found
+03:27:04.605 INFO localization.LocalizedStrings> [ERROR] CardString: SakuraFantasy_Pink not found
+03:27:04.607 INFO localization.LocalizedStrings> [ERROR] CardString: Apoptosis_Pink not found
+03:27:04.607 INFO localization.LocalizedStrings> [ERROR] CardString: Apoptosis_Pink not found
+03:27:04.609 INFO localization.LocalizedStrings> [ERROR] CardString: Apoptosis_Special_Pink not found
+03:27:04.610 INFO localization.LocalizedStrings> [ERROR] CardString: RemembranceOfPastLives_Pink not found
+03:27:04.610 INFO localization.LocalizedStrings> [ERROR] CardString: RemembranceOfPastLives_Pink not found
+03:27:04.612 INFO localization.LocalizedStrings> [ERROR] CardString: FutureLife_Pink not found
+03:27:04.613 INFO localization.LocalizedStrings> [ERROR] CardString: TheLureOfDeath_Pink not found
+03:27:04.613 INFO localization.LocalizedStrings> [ERROR] CardString: TheLureOfDeath_Pink not found
+03:27:04.615 INFO localization.LocalizedStrings> [ERROR] CardString: FutureLife_Pink not found
+03:27:04.615 INFO localization.LocalizedStrings> [ERROR] CardString: TheWayToLife_Pink not found
+03:27:04.616 INFO localization.LocalizedStrings> [ERROR] CardString: TheWayToLife_Pink not found
+03:27:04.617 INFO localization.LocalizedStrings> [ERROR] CardString: FutureLife_Pink not found
+03:27:04.618 INFO localization.LocalizedStrings> [ERROR] CardString: DeathSuffer_Pink not found
+03:27:04.618 INFO localization.LocalizedStrings> [ERROR] CardString: DeathSuffer_Pink not found
+03:27:04.619 INFO localization.LocalizedStrings> [ERROR] CardString: WhyToBecomeBuddha_Pink not found
+03:27:04.619 INFO localization.LocalizedStrings> [ERROR] CardString: WhyToBecomeBuddha_Pink not found
+03:27:04.621 INFO localization.LocalizedStrings> [ERROR] CardString: FutureLife_Pink not found
+03:27:04.621 INFO localization.LocalizedStrings> [ERROR] CardString: Inevitability_Pink not found
+03:27:04.622 INFO localization.LocalizedStrings> [ERROR] CardString: Inevitability_Pink not found
+03:27:04.623 INFO localization.LocalizedStrings> [ERROR] CardString: UnableToNirvana_Pink not found
+03:27:04.624 INFO localization.LocalizedStrings> [ERROR] CardString: UnableToNirvana_Pink not found
+03:27:04.625 INFO localization.LocalizedStrings> [ERROR] CardString: FutureLife_Pink not found
+03:27:04.626 INFO localization.LocalizedStrings> [ERROR] CardString: TheLastWish_Pink not found
+03:27:04.626 INFO localization.LocalizedStrings> [ERROR] CardString: TheLastWish_Pink not found
+03:27:04.628 INFO localization.LocalizedStrings> [ERROR] CardString: FutureLife_Pink not found
+03:27:04.628 INFO localization.LocalizedStrings> [ERROR] CardString: TheMagnificenceOfImmortality_Pink not found
+03:27:04.628 INFO localization.LocalizedStrings> [ERROR] CardString: TheMagnificenceOfImmortality_Pink not found
+03:27:04.631 INFO localization.LocalizedStrings> [ERROR] CardString: FutureLife_Pink not found
+03:27:04.631 INFO localization.LocalizedStrings> [ERROR] CardString: Lead_A_Befuddled_Life_Pink not found
+03:27:04.632 INFO localization.LocalizedStrings> [ERROR] CardString: Lead_A_Befuddled_Life_Pink not found
+03:27:04.634 INFO localization.LocalizedStrings> [ERROR] CardString: TheButterflyInTheDeep_Pink not found
+03:27:04.634 INFO localization.LocalizedStrings> [ERROR] CardString: TheButterflyInTheDeep_Pink not found
+03:27:04.636 INFO localization.LocalizedStrings> [ERROR] CardString: FutureLife_Pink not found
+03:27:04.636 INFO localization.LocalizedStrings> [ERROR] CardString: WeepingSakura_Pink not found
+03:27:04.636 INFO localization.LocalizedStrings> [ERROR] CardString: WeepingSakura_Pink not found
+03:27:04.639 INFO localization.LocalizedStrings> [ERROR] CardString: TheFeastOfDeath_Pink not found
+03:27:04.639 INFO localization.LocalizedStrings> [ERROR] CardString: TheFeastOfDeath_Pink not found
+03:27:04.640 INFO localization.LocalizedStrings> [ERROR] CardString: I_am_with_Sakura_Pink not found
+03:27:04.640 INFO localization.LocalizedStrings> [ERROR] CardString: I_am_with_Sakura_Pink not found
+03:27:04.642 INFO localization.LocalizedStrings> [ERROR] CardString: Sakura_Butterfly_Fantasy_life_Pink not found
+03:27:04.643 INFO localization.LocalizedStrings> [ERROR] CardString: Sakura_Butterfly_Fantasy_life_Pink not found
+03:27:04.645 INFO localization.LocalizedStrings> [ERROR] CardString: Sakura_Butterfly_Fantasy_FullBloom_Pink not found
+03:27:04.645 INFO localization.LocalizedStrings> [ERROR] CardString: Sakura_Butterfly_Fantasy_FullBloom_Pink not found
+03:27:04.647 INFO localization.LocalizedStrings> [ERROR] CardString: Sakura_Butterfly_Fantasy_Death_Pink not found
+03:27:04.647 INFO localization.LocalizedStrings> [ERROR] CardString: Sakura_Butterfly_Fantasy_Death_Pink not found
+03:27:04.650 INFO localization.LocalizedStrings> [ERROR] CardString: TheCurseOfTheDead_Pink not found
+03:27:04.650 INFO localization.LocalizedStrings> [ERROR] CardString: TheCurseOfTheDead_Pink not found
+03:27:04.652 INFO localization.LocalizedStrings> [ERROR] CardString: Apoptosis_Special_Pink not found
+03:27:04.652 INFO localization.LocalizedStrings> [ERROR] CardString: ChangeoverTheLife_Pink not found
+03:27:04.652 INFO localization.LocalizedStrings> [ERROR] CardString: ChangeoverTheLife_Pink not found
+03:27:04.654 INFO localization.LocalizedStrings> [ERROR] CardString: Sakura_Butterfly_Dance_Pink not found
+03:27:04.654 INFO localization.LocalizedStrings> [ERROR] CardString: Sakura_Butterfly_Dance_Pink not found
+03:27:04.656 INFO localization.LocalizedStrings> [ERROR] CardString: Sakura_Butterfly_Wish_Pink not found
+03:27:04.657 INFO localization.LocalizedStrings> [ERROR] CardString: Sakura_Butterfly_Wish_Pink not found
+03:27:04.659 INFO localization.LocalizedStrings> [ERROR] CardString: FutureLife_Pink not found
+03:27:04.659 INFO localization.LocalizedStrings> [ERROR] CardString: Being_Towards_Death_Pink not found
+03:27:04.659 INFO localization.LocalizedStrings> [ERROR] CardString: Being_Towards_Death_Pink not found
+03:27:04.661 INFO localization.LocalizedStrings> [ERROR] CardString: FutureLife_Pink not found
+03:27:04.661 INFO localization.LocalizedStrings> [ERROR] CardString: Complete_Ink_Sakura_Pink not found
+03:27:04.662 INFO localization.LocalizedStrings> [ERROR] CardString: Complete_Ink_Sakura_Pink not found
+03:27:04.664 INFO localization.LocalizedStrings> [ERROR] CardString: A_Lonely_Death_Pink not found
+03:27:04.664 INFO localization.LocalizedStrings> [ERROR] CardString: A_Lonely_Death_Pink not found
+03:27:04.666 INFO localization.LocalizedStrings> [ERROR] CardString: FutureLife_Pink not found
+03:27:04.667 INFO localization.LocalizedStrings> [ERROR] CardString: The_lord_of_Underworld_Pink not found
+03:27:04.667 INFO localization.LocalizedStrings> [ERROR] CardString: The_lord_of_Underworld_Pink not found
+03:27:04.669 INFO localization.LocalizedStrings> [ERROR] CardString: Blooming_Gracefully_Pink not found
+03:27:04.669 INFO localization.LocalizedStrings> [ERROR] CardString: Blooming_Gracefully_Pink not found
+03:27:04.672 INFO localization.LocalizedStrings> [ERROR] CardString: The_memory_of_the_distant_past_Pink not found
+03:27:04.672 INFO localization.LocalizedStrings> [ERROR] CardString: The_memory_of_the_distant_past_Pink not found
+03:27:04.673 INFO localization.LocalizedStrings> [ERROR] CardString: ThousandsOfSakura_Pink not found
+03:27:04.673 INFO localization.LocalizedStrings> [ERROR] CardString: ThousandsOfSakura_Pink not found
+03:27:04.676 INFO localization.LocalizedStrings> [ERROR] CardString: TheDeepGaze_Pink not found
+03:27:04.676 INFO localization.LocalizedStrings> [ERROR] CardString: TheDeepGaze_Pink not found
+03:27:04.678 INFO localization.LocalizedStrings> [ERROR] CardString: DeepButterfly_Pink not found
+03:27:04.678 INFO localization.LocalizedStrings> [ERROR] CardString: DeepButterfly_Pink not found
+03:27:04.681 INFO localization.LocalizedStrings> [ERROR] CardString: TheSoulOfPure_Pink not found
+03:27:04.681 INFO localization.LocalizedStrings> [ERROR] CardString: TheSoulOfPure_Pink not found
+03:27:04.683 INFO localization.LocalizedStrings> [ERROR] CardString: TheVoidOfSoul_Pink not found
+03:27:04.683 INFO localization.LocalizedStrings> [ERROR] CardString: TheVoidOfSoul_Pink not found
+03:27:04.685 INFO localization.LocalizedStrings> [ERROR] CardString: Sakura_Volition_Pink not found
+03:27:04.686 INFO localization.LocalizedStrings> [ERROR] CardString: Sakura_Volition_Pink not found
+03:27:04.688 INFO localization.LocalizedStrings> [ERROR] CardString: TheGhostdomSakura_Pink not found
+03:27:04.688 INFO localization.LocalizedStrings> [ERROR] CardString: TheGhostdomSakura_Pink not found
+03:27:04.690 INFO localization.LocalizedStrings> [ERROR] CardString: ButterflyDream_Pink not found
+03:27:04.690 INFO localization.LocalizedStrings> [ERROR] CardString: ButterflyDream_Pink not found
+03:27:04.693 INFO localization.LocalizedStrings> [ERROR] CardString: SoulReturn_Butterfly_Pink not found
+03:27:04.693 INFO localization.LocalizedStrings> [ERROR] CardString: SoulReturn_Butterfly_Pink not found
+03:27:04.695 INFO basemod.DevConsole> =========================????????????????????=========================
+03:27:05.713 INFO helpers.CardLibrary> Card load time: 1018ms with 445 cards
+03:27:05.714 INFO basemod.BaseMod> begin editing relics
+03:27:05.714 INFO basemod.DevConsole> =========================????????????????????=========================
+03:27:05.716 INFO core.CardCrawlGame> Exception occurred in CardCrawlGame create method!
+03:27:05.716 ERROR core.CardCrawlGame> Exception caught
+java.lang.NullPointerException: null
+	at com.megacrit.cardcrawl.relics.AbstractRelic.<init>(AbstractRelic.java:126) ~[?:?]
+	at basemod.abstracts.CustomRelic.<init>(CustomRelic.java:17) ~[BaseMod.jar:?]
+	at relices.AbsYuyukoRelic.<init>(AbsYuyukoRelic.java:16) ~[Saigyouji_Yuyuko_mod.jar:?]
+	at relices.SakuraAndButterfly_Relic_Pink.<init>(SakuraAndButterfly_Relic_Pink.java:26) ~[Saigyouji_Yuyuko_mod.jar:?]
+	at Saigyouji_Yuyuko_mod.Saigyouji_Yuyuko_mod.receiveEditRelics(Saigyouji_Yuyuko_mod.java:121) ~[Saigyouji_Yuyuko_mod.jar:?]
+	at basemod.BaseMod.publishEditRelics(BaseMod.java:2522) ~[?:?]
+	at basemod.patches.com.megacrit.cardcrawl.helpers.RelicLibrary.EditRelicsPatch.Prefix(EditRelicsPatch.java:11) ~[BaseMod.jar:?]
+	at com.megacrit.cardcrawl.helpers.RelicLibrary.initialize(RelicLibrary.java) ~[?:?]
+	at com.megacrit.cardcrawl.core.CardCrawlGame.create(CardCrawlGame.java:283) [?:?]
+	at com.badlogic.gdx.backends.lwjgl.LwjglApplication.mainLoop(LwjglApplication.java:149) [?:?]
+	at com.badlogic.gdx.backends.lwjgl.LwjglApplication$1.run(LwjglApplication.java:126) [?:?]
+03:27:05.719 INFO basemod.BaseMod> publishPostInitialize
+03:27:05.742 INFO basemod.BaseMod> registerModBadge : BaseMod
+03:27:05.743 INFO basemod.ModBadge> initialized mod badge for: BaseMod
+03:27:05.743 INFO basemod.ModBadge> setup hooks for BaseMod mod badge
+03:27:05.744 INFO basemod.BaseMod> initializeUnderscoreCardIDs
+03:27:05.745 INFO basemod.BaseMod> initializeUnderscorePotionIDs
+03:27:05.745 INFO basemod.BaseMod> initializeUnderscoreEventIDs
+03:27:05.745 INFO basemod.BaseMod> initializeUnderscoreRelicIDs
+03:27:05.745 INFO basemod.BaseMod> initializeEncounters
+03:27:05.829 INFO basemod.BaseMod> registerModBadge : Saigyouji_Yuyuko
+03:27:05.830 INFO basemod.ModBadge> initialized mod badge for: Saigyouji_Yuyuko
+03:27:05.830 INFO basemod.ModBadge> setup hooks for Saigyouji_Yuyuko mod badge
+03:27:05.832 INFO EventUtil> Event LostSoulsEvent_Pink registered. ANY | [TheEnding]
+03:27:05.833 INFO EventUtil> Event SpiritualErosion_Pink registered. ANY | [TheEnding]
+03:27:05.833 INFO EventUtil> Event previousIncarnations_Pink registered. ANY | [TheEnding]
+03:27:05.833 INFO EventUtil> Event TheEnd_Yuyuko_Pink registered. ANY | [TheEnding]
+03:27:05.833 INFO EventUtil> Event BigFish_Yuyuko_Pink registered. ANY | [TheEnding]
+03:27:05.834 INFO EventUtil> Event Falling_Yuyuko_Pink registered. ANY | [TheEnding]
+03:27:05.834 INFO EventUtil> Event ForgottenAltar_Yuyuko_Pink registered. ANY | [TheEnding]
+03:27:05.834 INFO EventUtil> Event Ghosts_Yuyuko_Pink registered. ANY | [TheEnding]
+03:27:05.834 INFO EventUtil> Event KnowingSkull_Yuyuko_Pink registered. ANY | [TheEnding]
+03:27:05.835 INFO EventUtil> Event Vampires_Yuyuko_Pink registered. ANY | [TheEnding]
+03:27:05.835 INFO EventUtil> Event Nest_Yuyuko_Pink registered. ANY | [TheEnding]
+03:27:05.835 INFO EventUtil> Event FaceTrader_Yuyuko_Pink registered. ANY | [TheEnding]
+03:27:05.836 INFO EventUtil> Event NoteForYourself_Yuyuko_Pink registered. ANY | [TheEnding]
+03:27:05.837 INFO core.CardCrawlGame> PAUSE()
+03:27:05.837 INFO core.CardCrawlGame> Game shutting down...
+03:27:05.837 INFO core.CardCrawlGame> Flushing saves to disk...
+03:27:05.838 INFO core.CardCrawlGame> Shutting down publisher integrations...
+03:27:05.840 INFO core.CardCrawlGame> Flushing logs to disk. Clean shutdown successful.
+
+Game crashed.
+Version Info:
+ - Java version (1.8.0_144)
+ - Slay the Spire (10-04-2022)
+ - ModTheSpire (3.30.0)
+Mod list:
+ - basemod (5.47.0)
+ - stslib (2.5.0)
+ - Saigyouji_Yuyuko_mod (1.2.0)
+
+Mods in stacktrace:
+ - Saigyouji_Yuyuko_mod (1.2.0)
+Cause:
+java.lang.NullPointerException
+	at com.megacrit.cardcrawl.relics.AbstractRelic.<init>(AbstractRelic.java:126)
+	at basemod.abstracts.CustomRelic.<init>(CustomRelic.java:17)
+	at relices.AbsYuyukoRelic.<init>(AbsYuyukoRelic.java:16)
+	at relices.SakuraAndButterfly_Relic_Pink.<init>(SakuraAndButterfly_Relic_Pink.java:26)
+	at Saigyouji_Yuyuko_mod.Saigyouji_Yuyuko_mod.receiveEditRelics(Saigyouji_Yuyuko_mod.java:121)
+	at basemod.BaseMod.publishEditRelics(BaseMod.java:2522)
+	at basemod.patches.com.megacrit.cardcrawl.helpers.RelicLibrary.EditRelicsPatch.Prefix(EditRelicsPatch.java:11)
+	at com.megacrit.cardcrawl.helpers.RelicLibrary.initialize(RelicLibrary.java)
+	at com.megacrit.cardcrawl.core.CardCrawlGame.create(CardCrawlGame.java:283)
+	at com.badlogic.gdx.backends.lwjgl.LwjglApplication.mainLoop(LwjglApplication.java:149)
+	at com.badlogic.gdx.backends.lwjgl.LwjglApplication$1.run(LwjglApplication.java:126)
